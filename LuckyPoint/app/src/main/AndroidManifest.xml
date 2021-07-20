@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LuckyPoint">
+        <activity android:name=".Lotto"></activity>
+        <activity android:name=".LuckyCard" />
         <activity android:name=".Roulette" />
         <activity android:name=".MainActivity">
             <intent-filter>
