@@ -20,12 +20,46 @@ class RouletteSystem @JvmOverloads constructor(
     private val drawPaint = Paint()
     private val fillPaint = Paint()
     private val textPaint = Paint()
-    private var rouletteDataList = listOf("Swift", "Android", "JAVA", "Jango", "SQL", "Kotlin", "Python", "Go")
+    var rouletteDataList = mutableListOf("꽝","당첨","한번더!","당첨","꽝"," 한번더!","당첨","한번더!")
 
-    private var rouletteSize = 8
+    private var rouletteSize = rouletteDataList.size
     //룰렛의 조각을 나눌 변수로서 추후 사용자로부터 입력받을 예정
 
+    private var textSize = 0f
+    private var textColor = Color.BLACK
+    private var rouletteBorderLineColor = Color.BLACK
+    private var rouletteBorderLineWidth = 0f
+
     init {
+        val typedArray = context.obtainStyledAttributes(
+                attrs,
+                R.styleable.RouletteSystem,
+                defStyleAttr,
+                0
+        )
+
+        rouletteBorderLineColor = typedArray.getColor(
+                R.styleable.RouletteSystem_rouletteBorderLineColor,
+                Color.BLACK
+        )
+
+        rouletteBorderLineWidth = typedArray.getDimension(
+                R.styleable.RouletteSystem_rouletteBorderLineWidth,
+                20f
+        )
+
+        textColor = typedArray.getColor(
+                R.styleable.RouletteSystem_textColor,
+                Color.BLACK
+        )
+
+        textSize = typedArray.getDimension(
+                R.styleable.RouletteSystem_textSize,
+                60f
+        )
+
+        typedArray.recycle()
+
         drawPaint.apply {
             color = Color.BLACK
             style = Paint.Style.STROKE
@@ -123,4 +157,32 @@ class RouletteSystem @JvmOverloads constructor(
         }
         return ""
     }
+
+    fun setTextSize(textSize: Float) {
+        this.textSize = textSize
+        invalidate()
+    }
+
+    fun getTextSize(): Float = textSize
+
+    fun setTextColor(textColor: Int) {
+        this.textColor = textColor
+        invalidate()
+    }
+
+    fun getTextColor(): Int = textColor
+
+    fun setRouletteBorderLineColor(borderLineColor: Int) {
+        this.rouletteBorderLineColor = borderLineColor
+        invalidate()
+    }
+
+    fun getRouletteBorderLineColor(): Int = rouletteBorderLineColor
+
+    fun setRouletteBorderLineWidth(width: Float) {
+        rouletteBorderLineWidth = width
+        invalidate()
+    }
+
+    fun getRouletteBorderLineWidth(): Float = rouletteBorderLineWidth
 }

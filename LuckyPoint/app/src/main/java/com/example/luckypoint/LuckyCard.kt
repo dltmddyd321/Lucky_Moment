@@ -12,7 +12,6 @@ class LuckyCard : AppCompatActivity() {
 
     private val imageViews by lazy { arrayOfNulls<ImageView>(4) }
     private val cardImg = intArrayOf(R.drawable.card_0, R.drawable.card_1, R.drawable.card_2)
-    private val cardName = arrayOf("None","Lucky","Fail")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

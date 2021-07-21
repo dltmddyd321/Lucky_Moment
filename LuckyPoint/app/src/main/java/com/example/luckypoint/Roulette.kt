@@ -15,6 +15,14 @@ class Roulette : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_roulette)
         binding.activity = this
+
+        binding.rouletteSystem.apply {
+            setTextColor(R.color.black)
+            setRouletteBorderLineColor(R.color.white)
+
+            getTextColor()
+            getRouletteBorderLineColor()
+        }
     }
 
     fun rotateRoulette() {
