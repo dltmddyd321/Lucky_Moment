@@ -2,10 +2,7 @@ package com.example.luckypoint
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.RectF
+import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
 import android.view.animation.Animation
@@ -29,6 +26,7 @@ class RouletteSystem @JvmOverloads constructor(
     private var textColor = Color.BLACK
     private var rouletteBorderLineColor = Color.BLACK
     private var rouletteBorderLineWidth = 0f
+    private var textStyle = Typeface.BOLD
 
     init {
         val typedArray = context.obtainStyledAttributes(
@@ -76,6 +74,7 @@ class RouletteSystem @JvmOverloads constructor(
             color = Color.BLACK
             textSize = 60f
             textAlign = Paint.Align.CENTER
+            textStyle = Typeface.BOLD
         }
     }
 
