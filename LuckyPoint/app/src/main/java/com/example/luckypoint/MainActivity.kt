@@ -41,6 +41,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, LuckyCard::class.java)
             startActivity(intent)
         }
+        
+        diceBtn.setOnClickListener { 
+            val intent = Intent(this, Dice::class.java)
+            startActivity(intent)
+        }
 
         lottoBtn.setOnClickListener {
             val intent = Intent(this, Lotto::class.java)
