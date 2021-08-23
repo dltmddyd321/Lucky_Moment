@@ -1,5 +1,6 @@
 package com.example.slotmachine.ImageViewScroll
 
+//이미지 id 값을 등록할 Object 선언
 object Util {
     var bar = 0
     var lemon = 1
