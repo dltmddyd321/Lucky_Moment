@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
+import com.example.luckypoint.ladder.LadderActivity
 import com.example.luckypoint.slotmachine.SlotMachine
 
 class MainActivity : AppCompatActivity() {
@@ -58,6 +59,11 @@ class MainActivity : AppCompatActivity() {
         //슬롯 머신 화면으로 이동하는 버튼
         slotBtn.setOnClickListener {
             val intent = Intent(this, SlotMachine::class.java)
+            startActivity(intent)
+        }
+
+        ladderBtn.setOnClickListener {
+            val intent = Intent(this, LadderActivity::class.java)
             startActivity(intent)
         }
 
