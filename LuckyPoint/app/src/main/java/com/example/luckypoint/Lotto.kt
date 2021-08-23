@@ -14,10 +14,6 @@ import androidx.core.view.isVisible
 
 class Lotto : AppCompatActivity() {
 
-    private val clearButton: Button by lazy {
-        findViewById<Button>(R.id.clear)
-    } //초기화 버튼 연결
-
     private val restartButton: Button by lazy {
         findViewById<Button>(R.id.restartBtn)
     } //재시작 버튼 연결
@@ -122,15 +118,7 @@ class Lotto : AppCompatActivity() {
         }
     }
 
-    private fun initClearButton() {
-        clearButton.setOnClickListener {
-            pickNumberSet.clear() //Set 내용 비우기
-            numberTextViewList.forEach {
-                it.visibility = View.GONE // 내용이 비워지면 다시 비시각화
-            }
-            didRun = false
-        }
-    }
+
 
     private fun getRandomNumber(): List<Int> { //Int형 List를 반환하는 함수
         val numberList = mutableListOf<Int>() //리스트 객체 생성
