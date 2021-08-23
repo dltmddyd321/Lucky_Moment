@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LuckyPoint">
         <activity
+            android:name=".slotmachine.SlotMachine"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
             android:name=".PickNumDice"
             android:exported="true" />
         <activity

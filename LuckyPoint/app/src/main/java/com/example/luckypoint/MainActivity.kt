@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
+import com.example.luckypoint.slotmachine.SlotMachine
 
 class MainActivity : AppCompatActivity() {
     private val rouletteBtn: Button by lazy {
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
 
     private val ladderBtn: Button by lazy {
         findViewById(R.id.button4)
+    }
+
+    private val slotBtn: Button by lazy {
+        findViewById(R.id.button5)
     }
 
     private val lottoBtn: ImageButton by lazy {
@@ -47,6 +52,12 @@ class MainActivity : AppCompatActivity() {
         //주사위 모드 선택 화면으로 이동하는 버튼
         diceBtn.setOnClickListener { 
             val intent = Intent(this, SelectDiceMode::class.java)
+            startActivity(intent)
+        }
+
+        //슬롯 머신 화면으로 이동하는 버튼
+        slotBtn.setOnClickListener {
+            val intent = Intent(this, SlotMachine::class.java)
             startActivity(intent)
         }
 

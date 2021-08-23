@@ -4,11 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.26481481481481484" />
+        <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/drawable-v24/circle_red.xml" value="0.36102564102564105" />
         <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/drawable/btn_soft.xml" value="0.2841025641025641" />
+        <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/drawable/ic_dice_four.xml" value="0.36102564102564105" />
+        <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/drawable/ic_dice_six.xml" value="0.36102564102564105" />
         <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_dice.xml" value="0.17806484295845998" />
+        <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_lucky_card.xml" value="0.36614583333333334" />
         <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_pick_num_dice.xml" value="0.36614583333333334" />
+        <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_roulette.xml" value="0.36614583333333334" />
         <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_select_dice_mode.xml" value="0.36614583333333334" />
+        <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_slot_machine.xml" value="0.33" />
+        <entry key="..\:/Lucky_Moment-main/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/img_view_slot.xml" value="0.36614583333333334" />
         <entry key="app/src/main/res/drawable/btn_soft.xml" value="0.26481481481481484" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20923913043478262" />
         <entry key="app/src/main/res/layout/activity_roulette.xml" value="0.20923913043478262" />
