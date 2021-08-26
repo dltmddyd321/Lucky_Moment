@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gra1"
-    tools:viewBindingIgnore="true"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:viewBindingIgnore="true">
 
     <TextView
         android:layout_width="wrap_content"
@@ -34,71 +34,91 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.159" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button1"
-        android:layout_width="308dp"
-        android:layout_height="63dp"
-        android:background="@drawable/btn_soft"
-        android:text="★ 돌려라 돌려 룰렛 ★"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.301" />
-
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
-        android:layout_width="308dp"
-        android:layout_height="63dp"
-        android:background="@drawable/btn_soft"
-        android:text="★ 행운의 카드 ★"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
-        android:layout_width="308dp"
-        android:layout_height="63dp"
-        android:background="@drawable/btn_soft"
-        android:text="★ 주사위를 던져라 ★"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
-        android:layout_width="308dp"
-        android:layout_height="63dp"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
         android:background="@drawable/btn_soft"
         android:text="★ 사다리 타기 ★"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751" />
+        app:layout_constraintVertical_bias="0.756"
+        app:layout_constraintVertical_weight="1" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 돌려라 돌려 룰렛 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265"
+        app:layout_constraintVertical_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 슬롯 머신 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634"
+        app:layout_constraintVertical_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 주사위를 던져라 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        app:layout_constraintVertical_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 행운의 카드 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386"
+        app:layout_constraintVertical_weight="1" />
 
     <ImageView
         android:layout_width="54dp"
