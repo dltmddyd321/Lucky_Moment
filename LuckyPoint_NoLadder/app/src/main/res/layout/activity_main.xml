@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gra1"
+    tools:context=".MainActivity"
+    tools:viewBindingIgnore="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobstar"
+        android:text="Lucky Moment!"
+        android:textColor="#FB6E5F"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobstar"
+        android:text="I wish your good luck..!"
+        android:textColor="#FFB3D4"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 슬롯 머신 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746"
+        app:layout_constraintVertical_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 돌려라 돌려 룰렛 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintVertical_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 행운의 카드 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449"
+        app:layout_constraintVertical_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 주사위를 던져라 ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:src="@drawable/wow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hihi"
+        android:text="오늘 느낌 좋다면 로또의 행운도?!"
+        android:textColor="@color/purple_200"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+
+    <ImageButton
+        android:id="@+id/lottoBtn"
+        android:layout_width="220dp"
+        android:layout_height="82dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        app:srcCompat="@drawable/lotto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
