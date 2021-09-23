@@ -130,7 +130,6 @@ class Lotto : AppCompatActivity() {
                         this.add(i)
                     }
                 }
-
         numberList.shuffle()
         //랜덤 기능을 위해 리스트의 내용을 섞음.
 

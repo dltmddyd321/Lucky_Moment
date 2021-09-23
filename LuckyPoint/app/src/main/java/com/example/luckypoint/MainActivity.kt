@@ -1,34 +1,25 @@
 package com.example.luckypoint
 
 import android.content.Intent
-import android.media.Image
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.example.luckypoint.ladder.LadderActivity
+import com.example.luckypoint.dice.SelectDiceMode
 import com.example.luckypoint.slotmachine.SlotMachine
 
 class MainActivity : AppCompatActivity() {
-    private val rouletteBtn: Button by lazy {
-        findViewById(R.id.button1)
-    }
 
     private val cardBtn: Button by lazy {
-        findViewById(R.id.button2)
+        findViewById(R.id.luckyCardBtn)
     }
 
     private val diceBtn: Button by lazy {
-        findViewById(R.id.button3)
-    }
-
-    private val ladderBtn: Button by lazy {
-        findViewById(R.id.button4)
+        findViewById(R.id.diceBtn)
     }
 
     private val slotBtn: Button by lazy {
-        findViewById(R.id.button5)
+        findViewById(R.id.slotBtn)
     }
 
     private val lottoBtn: ImageButton by lazy {
@@ -37,12 +28,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        //룰렛 화면으로 이동하는 버튼
-        rouletteBtn.setOnClickListener {
-            val intent = Intent(this, Roulette::class.java)
-            startActivity(intent)
-        }
 
         //행운의 카드 뒤집기 화면으로 이동하는 버튼
         cardBtn.setOnClickListener {
@@ -62,16 +47,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        ladderBtn.setOnClickListener {
-            val intent = Intent(this, LadderActivity::class.java)
-            startActivity(intent)
-        }
-
         //로또 화면으로 이동하는 버튼
         lottoBtn.setOnClickListener {
             val intent = Intent(this, Lotto::class.java)
             startActivity(intent)
         }
-
     }
 }
