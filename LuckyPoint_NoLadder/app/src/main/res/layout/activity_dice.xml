@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gra1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/hihi"
+        android:textColor="#FB6E5F"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="주사위를 굴려라!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/diceImageView"/>
+
+    <ImageView
+        android:id="@+id/diceImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_dice_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/diceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="주사위 결과: 1"
+        android:fontFamily="@font/hihi"
+        android:textStyle="bold"
+        android:textColor="#FB6E5F"
+        app:layout_constraintBottom_toBottomOf="@id/diceButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/diceImageView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/diceButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="주사위 굴리기"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/btn_soft"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/diceTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RouletteSystem">
+
+        <attr name="rouletteBorderLineColor" format="reference|color"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="rouletteSize" format="integer"/>
+        <attr name="textSize" format="reference|dimension"/>
+        <attr name="emptyMessage" format="string"/>
+        <attr name="rouletteBorderLineWidth" format="reference|dimension"/>
+
+    </declare-styleable>
+
+</resources>
