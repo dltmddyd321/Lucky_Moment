@@ -1,0 +1,6 @@
+com/example/luckypoint/BuildConfig.java
+ com.example.luckypoint.BuildConfig
+com/example/luckypoint/DataBindingTriggerClass.java
+ com.example.luckypoint.DataBindingTriggerClass
+com/example/luckypoint/databinding/ActivityRouletteBinding.java
+ com.example.luckypoint.databinding.ActivityRouletteBinding

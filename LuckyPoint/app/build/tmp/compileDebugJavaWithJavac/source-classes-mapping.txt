@@ -1,0 +1,18 @@
+com/example/luckypoint/databinding/ActivitySelectDiceModeBinding.java
+ com.example.luckypoint.databinding.ActivitySelectDiceModeBinding
+com/example/luckypoint/databinding/ActivityDiceBinding.java
+ com.example.luckypoint.databinding.ActivityDiceBinding
+com/example/luckypoint/databinding/ImgViewSlotBinding.java
+ com.example.luckypoint.databinding.ImgViewSlotBinding
+com/example/luckypoint/databinding/ActivityPickNumDiceBinding.java
+ com.example.luckypoint.databinding.ActivityPickNumDiceBinding
+com/example/luckypoint/databinding/ActivityLuckyCardBinding.java
+ com.example.luckypoint.databinding.ActivityLuckyCardBinding
+com/example/luckypoint/BuildConfig.java
+ com.example.luckypoint.BuildConfig
+com/example/luckypoint/DataBindingTriggerClass.java
+ com.example.luckypoint.DataBindingTriggerClass
+com/example/luckypoint/databinding/ActivityLottoBinding.java
+ com.example.luckypoint.databinding.ActivityLottoBinding
+com/example/luckypoint/databinding/ActivitySlotMachineBinding.java
+ com.example.luckypoint.databinding.ActivitySlotMachineBinding

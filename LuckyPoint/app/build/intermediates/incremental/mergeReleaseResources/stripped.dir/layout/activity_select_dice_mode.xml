@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gra1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectDiceMode">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="194dp"
+        android:src="@drawable/ic_dice_six"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/normalDice"
+        android:layout_width="308dp"
+        android:layout_height="63dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 주사위 던지기! ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="194dp"
+        android:src="@drawable/what_dice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pickDice"
+        android:layout_width="308dp"
+        android:layout_height="63dp"
+        android:background="@drawable/btn_soft"
+        android:text="★ 주사위 맞추기! ★"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

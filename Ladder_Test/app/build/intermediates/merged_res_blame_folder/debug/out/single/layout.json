@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder_result_fragment.xml",
+        "source": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\src\\main\\res\\layout\\activity_ladder_result_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder.xml",
+        "source": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\src\\main\\res\\layout\\activity_ladder.xml"
+    },
+    {
+        "merged": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ladder_counter.xml",
+        "source": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\src\\main\\res\\layout\\ladder_counter.xml"
+    },
+    {
+        "merged": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder_play_fragment.xml",
+        "source": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\src\\main\\res\\layout\\activity_ladder_play_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder_ready_fragment.xml",
+        "source": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\src\\main\\res\\layout\\activity_ladder_ready_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\eidttext_list.xml",
+        "source": "C:\\Users\\psych\\AndroidStudioProjects\\Ladder_Test\\app\\src\\main\\res\\layout\\eidttext_list.xml"
+    }
+]
