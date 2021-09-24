@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+            "outputFile": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h600dp-port-v13/values-h600dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\psych\\.gradle\\caches\\transforms-2\\files-2.1\\8abc90209a9899a1a47077a9f866d596\\material-1.3.0\\res\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+                    "source": "/Users/iseung-yong/.gradle/caches/transforms-2/files-2.1/8abc90209a9899a1a47077a9f866d596/material-1.3.0/res/values-h600dp-port-v13/values-h600dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

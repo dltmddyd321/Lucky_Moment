@@ -1635,7 +1635,6 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable bar_done
-drawable bg
 drawable bg_text_color
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1725,7 +1724,6 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable triple_done
-drawable underline
 drawable up
 drawable waternelon_done
 drawable what_dice
@@ -2139,7 +2137,6 @@ id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id text_score
 id textinput_counter
 id textinput_error
 id textinput_helper_text

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\psych\\.gradle\\caches\\transforms-2\\files-2.1\\f616c9404e3bf22f8a40d49f72a720b7\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
+                    "source": "/Users/iseung-yong/.gradle/caches/transforms-2/files-2.1/f616c9404e3bf22f8a40d49f72a720b7/appcompat-1.2.0/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

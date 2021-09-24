@@ -1,58 +1,30 @@
 [
     {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder_ready_fragment.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_ladder_ready_fragment.xml"
+        "merged": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_slot_machine.xml",
+        "source": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_slot_machine.xml"
     },
     {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_slot_machine.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_slot_machine.xml"
+        "merged": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/img_view_slot.xml",
+        "source": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/img_view_slot.xml"
     },
     {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\edittext_list.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\edittext_list.xml"
+        "merged": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_dice.xml",
+        "source": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_dice.xml"
     },
     {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lotto.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_lotto.xml"
+        "merged": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_lotto.xml",
+        "source": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_lotto.xml"
     },
     {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder_result_fragment.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_ladder_result_fragment.xml"
+        "merged": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_pick_num_dice.xml",
+        "source": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_pick_num_dice.xml"
     },
     {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder_play_fragment.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_ladder_play_fragment.xml"
+        "merged": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_lucky_card.xml",
+        "source": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_lucky_card.xml"
     },
     {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pick_num_dice.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_pick_num_dice.xml"
-    },
-    {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ladder.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_ladder.xml"
-    },
-    {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lucky_card.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_lucky_card.xml"
-    },
-    {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_select_dice_mode.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_select_dice_mode.xml"
-    },
-    {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dice.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_dice.xml"
-    },
-    {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_roulette.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\activity_roulette.xml"
-    },
-    {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ladder_counter.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\ladder_counter.xml"
-    },
-    {
-        "merged": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\img_view_slot.xml",
-        "source": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\src\\main\\res\\layout\\img_view_slot.xml"
+        "merged": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_select_dice_mode.xml",
+        "source": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/res/layout/activity_select_dice_mode.xml"
     }
 ]

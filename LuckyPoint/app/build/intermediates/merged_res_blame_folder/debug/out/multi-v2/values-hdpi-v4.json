@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Lucky_Moment-main\\Lucky_Moment-main\\LuckyPoint\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\psych\\.gradle\\caches\\transforms-2\\files-2.1\\f616c9404e3bf22f8a40d49f72a720b7\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "/Users/iseung-yong/.gradle/caches/transforms-2/files-2.1/f616c9404e3bf22f8a40d49f72a720b7/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -84,17 +84,17 @@ class Lotto : AppCompatActivity() {
     private fun initAddButton() {
         addButton.setOnClickListener {
             if(didRun) { //초기화 요구
-                Toast.makeText(this, "초기화 후에 시도해주세요.", Toast.LENGTH_SHORT).show()
+                showText("초기화 후에 시도해주세요.")
                 return@setOnClickListener
             }
 
             if(pickNumberSet.size >= 5) { //최대 선택 가능 번호 수 초과
-                Toast.makeText(this, "번호는 최개 5개까지 선택 가능합니다.", Toast.LENGTH_SHORT).show()
+                showText("번호는 최대 5개까지 선택 가능합니다.")
                 return@setOnClickListener
             }
 
             if(pickNumberSet.contains(numberPicker.value)) { //nP에 값이 이미 존재한다면
-                Toast.makeText(this, "번호는 최개 5개까지 선택 가능합니다.", Toast.LENGTH_SHORT).show()
+                showText("번호는 최개 5개까지 선택 가능합니다.")
             }
 
             val textView = numberTextViewList[pickNumberSet.size] //Set의 size가 곧 현재 값의 위치.
@@ -142,8 +142,12 @@ class Lotto : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        //뒤로 가기 버튼 누르면 메인화면으로 복귀
         startActivity(Intent(this,MainActivity::class.java))
         finish()
     }
-    //뒤로 가기 버튼 누르면 메인화면으로 복귀
+
+    fun showText(toast:String) {
+        Toast.makeText(this,toast,Toast.LENGTH_SHORT).show()
+    }
 }

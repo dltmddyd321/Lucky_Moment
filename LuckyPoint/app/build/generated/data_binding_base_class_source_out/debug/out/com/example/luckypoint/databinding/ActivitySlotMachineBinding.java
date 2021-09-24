@@ -7,12 +7,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.example.luckypoint.R;
-import com.example.luckypoint.slotmachine.ImageViewScrolling;
+import com.example.luckypoint.slotmachine.ImageViewMotion;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,13 +21,13 @@ public final class ActivitySlotMachineBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageViewScrolling image1;
+  public final ImageViewMotion image1;
 
   @NonNull
-  public final ImageViewScrolling image2;
+  public final ImageViewMotion image2;
 
   @NonNull
-  public final ImageViewScrolling image3;
+  public final ImageViewMotion image3;
 
   @NonNull
   public final FrameLayout layoutBar;
@@ -39,13 +38,10 @@ public final class ActivitySlotMachineBinding implements ViewBinding {
   @NonNull
   public final ImageView ptUp;
 
-  @NonNull
-  public final TextView textScore;
-
   private ActivitySlotMachineBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageViewScrolling image1, @NonNull ImageViewScrolling image2,
-      @NonNull ImageViewScrolling image3, @NonNull FrameLayout layoutBar, @NonNull ImageView ptDown,
-      @NonNull ImageView ptUp, @NonNull TextView textScore) {
+      @NonNull ImageViewMotion image1, @NonNull ImageViewMotion image2,
+      @NonNull ImageViewMotion image3, @NonNull FrameLayout layoutBar, @NonNull ImageView ptDown,
+      @NonNull ImageView ptUp) {
     this.rootView = rootView;
     this.image1 = image1;
     this.image2 = image2;
@@ -53,7 +49,6 @@ public final class ActivitySlotMachineBinding implements ViewBinding {
     this.layoutBar = layoutBar;
     this.ptDown = ptDown;
     this.ptUp = ptUp;
-    this.textScore = textScore;
   }
 
   @Override
@@ -84,19 +79,19 @@ public final class ActivitySlotMachineBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.image1;
-      ImageViewScrolling image1 = rootView.findViewById(id);
+      ImageViewMotion image1 = rootView.findViewById(id);
       if (image1 == null) {
         break missingId;
       }
 
       id = R.id.image2;
-      ImageViewScrolling image2 = rootView.findViewById(id);
+      ImageViewMotion image2 = rootView.findViewById(id);
       if (image2 == null) {
         break missingId;
       }
 
       id = R.id.image3;
-      ImageViewScrolling image3 = rootView.findViewById(id);
+      ImageViewMotion image3 = rootView.findViewById(id);
       if (image3 == null) {
         break missingId;
       }
@@ -119,14 +114,8 @@ public final class ActivitySlotMachineBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.text_score;
-      TextView textScore = rootView.findViewById(id);
-      if (textScore == null) {
-        break missingId;
-      }
-
       return new ActivitySlotMachineBinding((RelativeLayout) rootView, image1, image2, image3,
-          layoutBar, ptDown, ptUp, textScore);
+          layoutBar, ptDown, ptUp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

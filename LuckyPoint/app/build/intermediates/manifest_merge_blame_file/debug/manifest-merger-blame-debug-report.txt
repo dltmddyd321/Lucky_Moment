@@ -6,72 +6,72 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml
+8-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml
+9-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:5:5-32:19
+11-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:5:5-32:19
 12        android:allowBackup="true"
-12-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:6:9-35
+12-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.2] C:\Users\psych\.gradle\caches\transforms-2\files-2.1\c15b5e460396b6541b55b5cb88a21a72\core-1.3.2\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.2] /Users/iseung-yong/.gradle/caches/transforms-2/files-2.1/c15b5e460396b6541b55b5cb88a21a72/core-1.3.2/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@drawable/luchpt"
-16-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:7:9-40
+16-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:7:9-40
 17        android:label="@string/app_name"
-17-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:8:9-41
+17-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:8:9-41
 18        android:roundIcon="@drawable/luchpt"
-18-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:9:9-45
+18-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:9:9-45
 19        android:supportsRtl="true"
-19-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:10:9-35
+19-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.LuckyPoint" >
-21-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:11:9-48
+21-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:11:9-48
 22        <activity
-22-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:12:9-15:53
+22-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:12:9-15:53
 23            android:name="com.example.luckypoint.slotmachine.SlotMachine"
-23-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:13:13-52
+23-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:13:13-52
 24            android:exported="true"
-24-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:14:13-36
+24-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:14:13-36
 25            android:screenOrientation="landscape" />
-25-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:15:13-50
+25-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:15:13-50
 26        <activity
-26-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:16:9-18:39
+26-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:16:9-18:39
 27            android:name="com.example.luckypoint.dice.PickNumDice"
-27-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:17:13-45
+27-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:17:13-45
 28            android:exported="true" />
-28-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:18:13-36
+28-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:18:13-36
 29        <activity
-29-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:19:9-21:39
+29-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:19:9-21:39
 30            android:name="com.example.luckypoint.dice.SelectDiceMode"
-30-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:20:13-48
+30-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:20:13-48
 31            android:exported="true" />
-31-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:21:13-36
+31-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:21:13-36
 32        <activity android:name="com.example.luckypoint.MainActivity" >
-32-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:22:9-28:20
-32-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:22:19-47
+32-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:22:9-28:20
+32-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:22:19-47
 33            <intent-filter>
-33-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:23:13-27:29
+33-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:23:13-27:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:24:17-69
-34-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:24:25-66
+34-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:24:17-69
+34-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:24:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:26:17-77
-36-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:26:27-74
+36-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:26:17-77
+36-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:26:27-74
 37            </intent-filter>
 38        </activity>
 39        <activity android:name="com.example.luckypoint.Lotto" />
-39-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:29:9-43
-39-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:29:19-40
+39-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:29:9-43
+39-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:29:19-40
 40        <activity android:name="com.example.luckypoint.LuckyCard" />
-40-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:30:9-47
-40-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:30:19-44
+40-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:30:9-47
+40-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:30:19-44
 41        <activity android:name="com.example.luckypoint.dice.Dice" />
-41-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:31:9-47
-41-->D:\Lucky_Moment-main\Lucky_Moment-main\LuckyPoint\app\src\main\AndroidManifest.xml:31:19-44
+41-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:31:9-47
+41-->/Users/iseung-yong/Downloads/Lucky_Moment-main/LuckyPoint/app/src/main/AndroidManifest.xml:31:19-44
 42    </application>
 43
 44</manifest>

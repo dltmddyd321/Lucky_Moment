@@ -26,7 +26,7 @@ class PickNumDice : AppCompatActivity() {
 
     }
 
-    fun onRollClick(v: View) {
+    fun onDiceClick(v: View) {
         var inputValue = diceNumberInputView.getText().toString()
 
         if(inputValue.equals("")){
@@ -64,6 +64,7 @@ class PickNumDice : AppCompatActivity() {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
+    //입력값 오류 발생 시의 예외처리
     fun inputValidatationCheck(inputValue: String): Boolean {
         try {
             // 입력값이 없는 경우
