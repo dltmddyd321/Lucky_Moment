@@ -10,17 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LuckyPoint">
         <activity
-            android:name=".ladder.LadderActivity"
-            android:exported="true" />
-        <activity
             android:name=".slotmachine.SlotMachine"
             android:exported="true"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".PickNumDice"
+            android:name=".dice.PickNumDice"
             android:exported="true" />
         <activity
-            android:name=".SelectDiceMode"
+            android:name=".dice.SelectDiceMode"
             android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -30,8 +27,7 @@
         </activity>
         <activity android:name=".Lotto" />
         <activity android:name=".LuckyCard" />
-        <activity android:name=".Roulette" />
-        <activity android:name=".Dice" />
+        <activity android:name=".dice.Dice" />
     </application>
 
 </manifest>

@@ -1,0 +1,16 @@
+com/example/ladder_test/databinding/ActivityLadderResultFragmentBinding.java
+ com.example.ladder_test.databinding.ActivityLadderResultFragmentBinding
+com/example/ladder_test/databinding/ActivityLadderReadyFragmentBinding.java
+ com.example.ladder_test.databinding.ActivityLadderReadyFragmentBinding
+com/example/ladder_test/BuildConfig.java
+ com.example.ladder_test.BuildConfig
+com/example/ladder_test/databinding/LadderCounterBinding.java
+ com.example.ladder_test.databinding.LadderCounterBinding
+com/example/ladder_test/databinding/ActivityLadderBinding.java
+ com.example.ladder_test.databinding.ActivityLadderBinding
+com/example/ladder_test/databinding/EidttextListBinding.java
+ com.example.ladder_test.databinding.EidttextListBinding
+com/example/ladder_test/databinding/ActivityMainBinding.java
+ com.example.ladder_test.databinding.ActivityMainBinding
+com/example/ladder_test/databinding/ActivityLadderPlayFragmentBinding.java
+ com.example.ladder_test.databinding.ActivityLadderPlayFragmentBinding
